@@ -1,0 +1,146 @@
+ 
+body{
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Headings */
+
+.Section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Contrast */
+
+.colored-white{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-colored{
+    background-color: white;
+}
+/* Nav */
+
+.navbar{
+    padding-left: 0;
+    padding-bottom: 4.5rem;
+}
+.logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Title */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.title-head{
+    text-align: left;
+}
+.dwnld-btn{
+    margin: 5% 3% 5% 0;    
+}
+.title-img{
+    width: 60%;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+.features-title{
+    font-size: 1.5rem;
+}
+.features-svg{
+    color: #ef8172;
+    height: 3.5rem;
+    margin-bottom: 18px;
+}
+.features-svg:hover{
+    color: #ff4c68;
+}
+.features-text{
+    color: #8f8f8f;
+    font-weight: 600;
+}
+
+/* Testimonial */
+
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+.pricing text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-pack{
+    padding: 3% 2%;  
+}
+
+/* Footer */
+
+.footer-icons{
+    margin: 20px 10px;
+}
+ 
+@media(max-width:991px) {
+    #header{
+        text-align: center;
+    }
+    .title-img{
+        position:static;
+        transform: rotate(0deg);
+    }
+}
